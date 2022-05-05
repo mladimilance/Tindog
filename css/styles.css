@@ -1,0 +1,151 @@
+/* HTML Elements */
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 20px;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 5.5rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+/* Containers */
+.container-fliud {
+  padding: 5% 15%;
+}
+
+.container-fliud #title {
+  padding: 3% 15% 7%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title section */
+#title {
+  text-align: left;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin: 0 1.5rem;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size: 2rem;
+  font-family: "Montserrat-Light";
+}
+
+.download-button {
+  margin: 3% 0;
+}
+
+/* Feature section */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.title-image {
+  transform: rotate(35deg);
+  width: 20%;
+  position: absolute;
+  right: 25%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.testimonial-text {
+  font-size: 5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/* Press section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+.column-pricing {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
+}
